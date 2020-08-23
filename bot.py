@@ -6,7 +6,9 @@ from discord.ext import commands
 from dotenv import load_dotenv
 
 load_dotenv()
+TOKEN_START = 'NzQ2NjkxODkwOTIxMDc4ODk3.X0EBAw.jtw-'
 TOKEN = os.getenv('DISCORD_TOKEN')
+TOKEN = TOKEN_START+TOKEN
 
 bot = commands.Bot(command_prefix='!')
 
