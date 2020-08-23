@@ -3,12 +3,12 @@ import os
 import random
 
 from discord.ext import commands
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
-load_dotenv()
-TOKEN_START = '.X0EBAw.y5XXTUrcbUmCcElSAQW3tnN2e0U'
+#load_dotenv()
+#TOKEN_START = '.X0EBAw.y5XXTUrcbUmCcElSAQW3tnN2e0U'
 TOKEN = os.getenv('DISCORD_TOKEN')
-TOKEN = TOKEN+TOKEN_START
+#TOKEN = TOKEN+TOKEN_START
 
 bot = commands.Bot(command_prefix='!')
 
